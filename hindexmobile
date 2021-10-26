@@ -1,0 +1,67 @@
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NLW HEAT - Origin</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="avatar">
+          <span>
+            <img src="images/build.svg" alt="Selo RocketSeat" />
+          </span>
+          <img
+            src="https://lorempixel.com/185/185/people/"
+            alt="Imagem Marcelo"
+            id="ImageUser"
+          />
+        </div>
+        <h1 id="UserName">Marcelo R. da Silva</h1>
+        <a id="UserLink" href="https://github.com/skyvnet" target="_blank">
+          <img src="images/github.svg" alt="Icone GitHub" />
+          <span id="UserLogin">Marcelo Silva</span></a
+        >
+        <p id="UserBio">Estudante de Tecnologia e um futuro Dev.</p>
+        <ul id="Links">
+          <li class="Youtube">
+            <a
+              href="https://www.youtube.com/channel/UC0rQAFsetfo5stYJ6pYnSWg"
+              target="_blank"
+            >
+              <img src="images/youtube.svg" alt="Icone Youtube" />
+            </a>
+          </li>
+          <li class="Instagram">
+            <a href="https://instagram.com/marcelo_s1lva" target="_blank">
+              <img src="images/instagram.svg" alt="Icone Instagram" />
+            </a>
+          </li>
+          <li class="Facebook">
+            <a
+              id="UserImage"
+              href="https://www.facebook.com/profile.php?id=100003333348825https://facebook.com/"
+              target="_blank"
+            >
+              <img src="images/facebook.svg" alt="Icone Facebook" />
+            </a>
+          </li>
+          <li class="Twitter">
+            <a href="https://twitter.com" target="_blank">
+              <img src="images/twitter.svg" alt="Icone Twitter" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
