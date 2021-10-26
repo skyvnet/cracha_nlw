@@ -1,9 +1,9 @@
 const SocialMedia = {
-  github: 'skyvnet',
-  youtube: 'UC0rQAFsetfo5stYJ6pYnSWg',
-  facebook: 'profile.php?id=100003333348825',
-  instagram: 'marcelo_s1lva',
-  twitter: 'MarceloSilva'
+  Github: 'skyvnet',
+  Youtube: '/channel/UC0rQAFsetfo5stYJ6pYnSWg',
+  Facebook: 'profile.php?id=100003333348825',
+  Instagram: 'marcelo_s1lva',
+  Twitter: 'MarceloSilva'
 }
 
 function ShowSocialMedia() {
@@ -16,10 +16,16 @@ function ShowSocialMedia() {
 ShowSocialMedia()
 
 function getGitHubProfileInfos() {
-  const url = `https://api.github.com/users/${SocialMedia}`
+  const url = `https://api.github.com/users/${SocialMedia.Github}`
 
   fetch(url)
     .then(response => response.json())
-    .then(data => alert(data.bio))
+    .then(data => {
+      UserName.textContent = data.name
+      UserBio.textContent = data.bio
+      UserLink.href = data.html_url
+      ImageUser.src = data.avatar_url
+      UserLogin.textContent = data.login
+    })
 }
 getGitHubProfileInfos()
