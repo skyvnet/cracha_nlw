@@ -24,6 +24,7 @@ main {
   height: 100vh;
 }
 
+
 .container {
   max-width: 250px;
   margin-left: auto;
@@ -35,7 +36,7 @@ main {
 
 .avatar {
   width: 10rem;
-  margin: 14rem auto 0;
+  margin: 10rem auto 0;
 
   position: relative;
 }
@@ -53,6 +54,9 @@ main {
 
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
+
+ 
+
 
 h1 {
   font-size: 1.5rem;
