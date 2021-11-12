@@ -1,0 +1,155 @@
+body{
+    background: url(images/background.jpg) no-repeat center/cover;
+}
+.bg{
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    color: white;
+    justify-content: space-between;
+}
+.contat--btn{
+    margin-left: 800px;
+    border-radius: 5px;
+    justify-content: space-between;
+    font-family: Montserrat;
+    cursor: pointer;
+}
+.teste_div{
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.teste_div1{
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.teste_div2{
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.teste_div3{
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.teste_div4{
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.teste_div5{
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.teste_div6{
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.teste_div7{
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.teste_div8{
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.teste_div9{
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.teste_div10{
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.teste_div, 
+.teste_div1,
+.teste_div2,
+.teste_div3,
+.teste_div4,
+.teste_div5,
+.teste_div6,
+.teste_div7,
+.teste_div8,
+.teste_div9{
+    color: white;
+}
